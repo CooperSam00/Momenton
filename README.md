@@ -9,9 +9,9 @@ npm run project-setup
 
 npm run start
 
-- To run Jest testing and provide coverage report for client/server run
+- To run Jest testing and provide coverage report for client run
 
-npm run project-test
+npm run test
 
 ## Notes
 
