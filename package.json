@@ -1,0 +1,20 @@
+{
+  "name": "momenton-challenge",
+  "version": "1.0.0",
+  "description": "Coding Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"nodemon server.js\" \"cd client && npm run start\"",
+    "project-setup": "npm install && cd client && npm install",
+    "test": "cd client && npm run test"
+  },
+  "author": "Sam Cooper",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
